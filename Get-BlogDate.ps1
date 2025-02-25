@@ -28,5 +28,3 @@ function Get-BlogDate {
     )
     return $Date.ToString($dtmFormat) -replace $tzOffsetReplace
 }
-
-Get-BlogDate -Mode Full
